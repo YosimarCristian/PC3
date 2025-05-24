@@ -202,4 +202,20 @@ html, body {
   padding-bottom: 60px; /* espacio para el footer */
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d0d4d9; /* gris plomo claro más marcado */
+  color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #d0d4d9; /* mismo gris para body */
+  color: #000;
+  margin: 20px;
+}
 
