@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Noticias\\PC3 Apis\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\NewsPortal.bundle.scp.css",
-      "PackagePath": "staticwebassets\\NewsPortal.3g3zdy2tkh.bundle.scp.css"
+      "Id": "C:\\Noticias\\PC3 Apis\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PC3SALAZAR.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PC3SALAZAR.lgk12gz9qo.bundle.scp.css"
     },
     {
       "Id": "C:\\Noticias\\PC3 Apis\\wwwroot\\css\\site.css",
@@ -257,24 +257,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.NewsPortal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PC3SALAZAR.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.NewsPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PC3SALAZAR.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.NewsPortal.props",
-      "PackagePath": "build\\NewsPortal.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.PC3SALAZAR.props",
+      "PackagePath": "build\\PC3SALAZAR.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.NewsPortal.props",
-      "PackagePath": "buildMultiTargeting\\NewsPortal.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.PC3SALAZAR.props",
+      "PackagePath": "buildMultiTargeting\\PC3SALAZAR.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.NewsPortal.props",
-      "PackagePath": "buildTransitive\\NewsPortal.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.PC3SALAZAR.props",
+      "PackagePath": "buildTransitive\\PC3SALAZAR.props"
     }
   ],
   "ElementsToRemove": []

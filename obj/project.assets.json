@@ -3499,9 +3499,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Noticias\\PC3 Apis\\NewsPortal.csproj",
-      "projectName": "NewsPortal",
-      "projectPath": "C:\\Noticias\\PC3 Apis\\NewsPortal.csproj",
+      "projectUniqueName": "C:\\Noticias\\PC3 Apis\\PC3SALAZAR.csproj",
+      "projectName": "PC3SALAZAR",
+      "projectPath": "C:\\Noticias\\PC3 Apis\\PC3SALAZAR.csproj",
       "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
       "outputPath": "C:\\Noticias\\PC3 Apis\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cFWXx2XVXTU=",
+  "dgSpecHash": "b9xEcaL/BhI=",
   "success": true,
-  "projectFilePath": "C:\\Noticias\\PC3 Apis\\NewsPortal.csproj",
+  "projectFilePath": "C:\\Noticias\\PC3 Apis\\PC3SALAZAR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cristian\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Cristian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

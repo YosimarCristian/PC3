@@ -456,4 +456,5 @@ C:\Noticias\PC3 Apis\obj\Debug\net9.0\NewsPortal.genruntimeconfig.cache
 C:\Noticias\PC3 Apis\obj\Debug\net9.0\ref\NewsPortal.dll
 C:\Noticias\PC3 Apis\obj\Debug\net9.0\compressed\nt18k45qqr-3g3zdy2tkh.gz
 C:\Noticias\PC3 Apis\obj\Debug\net9.0\compressed\shg7cihwt5-3g3zdy2tkh.gz
-C:\Noticias\PC3 Apis\obj\Debug\net9.0\compressed\yizk8omofp-aa0y0vguld.gz
+C:\Noticias\PC3 Apis\obj\Debug\net9.0\NewsPortal.sourcelink.json
+C:\Noticias\PC3 Apis\obj\Debug\net9.0\compressed\yizk8omofp-35clw6oxms.gz
