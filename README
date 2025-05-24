@@ -1,0 +1,32 @@
+# PC3SALAZAR - Plataforma Noticias Enriquecidas
+
+Este proyecto es una plataforma web desarrollada en ASP.NET Core 9.0 que consume APIs externas para mostrar noticias enriquecidas con información de autores, comentarios y permite dejar feedback con reacciones tipo "like" y "dislike". Utiliza SQLite como base de datos local para almacenar feedback de usuarios.
+
+---
+
+## Características
+
+- Consumo de API pública JSONPlaceholder para posts, usuarios y comentarios.
+- API local para registrar reacciones (feedback) en SQLite.
+- Interfaz MVC con vistas responsivas y diseño Bootstrap.
+- Validación para evitar múltiples votos en un mismo post.
+- Despliegue mediante Docker y Render.
+
+---
+
+## Tecnologías
+
+- ASP.NET Core 9.0
+- Entity Framework Core con SQLite
+- Bootstrap 5
+- Docker
+- Render (hosting)
+- Git para control de versiones
+
+---
+
+## Instalación y uso
+
+1. Clonar repositorio:
+```bash
+git clone https://github.com/YosimarCristian/PC3SALAZAR.git
