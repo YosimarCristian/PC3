@@ -1,0 +1,13 @@
+﻿@model List<PC3SALAZAR.Models.Post>
+
+<h2 class="mb-4">Noticias</h2>
+<ul class="list-group">
+    @foreach (var post in Model)
+    {
+        <li class="list-group-item">
+            <a asp-controller="News" asp-action="Details" asp-route-id="@post.id" class="text-decoration-none">
+                @post.title
+            </a>
+        </li>
+    }
+</ul>

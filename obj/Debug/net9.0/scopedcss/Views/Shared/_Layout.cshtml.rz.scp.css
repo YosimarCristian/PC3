@@ -1,0 +1,80 @@
+/* Navegación */
+a.navbar-brand[b-kkl74mz575] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color: #2f2f2f; /* gris plomo */
+  font-weight: bold;
+}
+
+a[b-kkl74mz575] {
+  color: #2a6fb5; /* azul medio */
+  text-decoration: none;
+}
+
+a:hover[b-kkl74mz575] {
+  color: #1b4d7a; /* azul más oscuro para hover */
+  text-decoration: underline;
+}
+
+/* Botones primarios */
+.btn-primary[b-kkl74mz575] {
+  color: #ffffff; /* blanco */
+  background-color: #2a6fb5; /* azul medio */
+  border-color: #254f7a; /* azul oscuro */
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover[b-kkl74mz575] {
+  background-color: #1b4d7a; /* azul más oscuro */
+  border-color: #153753;
+}
+
+/* Pestañas activas */
+.nav-pills .nav-link.active[b-kkl74mz575], .nav-pills .show > .nav-link[b-kkl74mz575] {
+  color: #ffffff; /* blanco */
+  background-color: #2a6fb5; /* azul medio */
+  border-color: #254f7a; /* azul oscuro */
+}
+
+/* Bordes */
+.border-top[b-kkl74mz575] {
+  border-top: 1px solid #b0b0b0; /* gris plomo claro */
+}
+.border-bottom[b-kkl74mz575] {
+  border-bottom: 1px solid #b0b0b0; /* gris plomo claro */
+}
+
+/* Sombra */
+.box-shadow[b-kkl74mz575] {
+  box-shadow: 0 .25rem .75rem rgba(47, 47, 47, 0.1); /* sombra gris plomo tenue */
+}
+
+/* Botón política */
+button.accept-policy[b-kkl74mz575] {
+  font-size: 1rem;
+  line-height: inherit;
+  color: #2f2f2f;
+  background-color: #f7f9fc; /* blanco ligeramente gris */
+  border: 1px solid #b0b0b0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.accept-policy:hover[b-kkl74mz575] {
+  background-color: #e1e7f0; /* azul grisáceo claro */
+}
+
+/* Pie de página */
+.footer[b-kkl74mz575] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  background-color: #2f2f2f; /* gris plomo oscuro */
+  color: #ffffff; /* blanco */
+  text-align: center;
+  font-size: 0.9rem;
+}

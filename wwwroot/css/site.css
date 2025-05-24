@@ -1,0 +1,205 @@
+/* Base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8ff;
+  color: #222;
+  margin-bottom: 60px;
+  padding: 1rem;
+}
+
+/* Texto base */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Botones con efecto */
+.btn:focus, 
+.btn:active:focus, 
+.btn-link.nav-link:focus, 
+.form-control:focus, 
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 8px 3px #258cfb;
+  outline: none;
+}
+
+/* Cards */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(37, 140, 251, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(37, 140, 251, 0.4);
+}
+
+/* Imagen */
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Título */
+.card-title {
+  font-weight: 700;
+  color: #1a73e8;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Texto */
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Botón */
+.btn-primary {
+  background-color: #1a73e8;
+  border-color: #1765c1;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #145dbf;
+  border-color: #114c9c;
+}
+
+/* Pie de card */
+.card-footer {
+  font-size: 0.85rem;
+  color: #999;
+  text-align: center;
+  background: #f4f8ff;
+  border-top: none;
+  font-style: italic;
+  padding: 0.75rem 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* Layout responsivo */
+@media (min-width: 576px) {
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 2rem 4rem;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+body > .container {
+  padding-bottom: 60px; /* espacio para el footer */
+}
+
+footer.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* altura del footer */
+  line-height: 60px;
+  background-color: #1a1a1a; /* color negro plomo */
+  color: white;
+  text-align: center;
+  z-index: 1030; /* para que esté arriba de otros elementos */
+}
+body {
+  background-color: #f5f5f5; /* fondo gris clarito */
+  color: #000; /* letras negras */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none; /* quitar bullets */
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff; /* blanco */
+  border: 1px solid #b0b0b0; /* gris plomo */
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+ul li:hover {
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: block;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto; /* Esto hace que el contenido tome todo el espacio disponible */
+  padding-bottom: 60px; /* espacio para el footer */
+}
+
+
